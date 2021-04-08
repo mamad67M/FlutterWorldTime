@@ -14,7 +14,7 @@ class _LoadingState extends State<Loading> {
 
   void setUpWorldTime() async
   {
-    WorldTime instance = WorldTime(location: 'Paris', flag: 'paris.png', url: 'Europe/Paris');
+    WorldTime instance = WorldTime(location: 'Berlin', flag: 'berlin.png', url: 'Europe/Berlin');
    await instance.getTime();
 
        // apres le traitement transferer les data vers home
